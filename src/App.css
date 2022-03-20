@@ -150,14 +150,14 @@ body{
 .footer{
   height: 50vh;
   display: flex;
-  justify-items: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items:center ;
   margin-bottom: 0;
   background: black;
 }
 
 .footer-logo{
-  max-height: 80%;
+  max-height: 30%;
 }
 
 .banner-about{
@@ -179,7 +179,51 @@ body{
   margin: 15px 20px;
 }
  
+.site-links{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+}
 
+.footer-link{
+  text-decoration: none;  
+  list-style-type: none;
+  color: white;
+}
+
+.pr-social-media {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5%;
+}
+.pr-share-icons-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+.pr-title {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: white;
+  margin: 0;
+}
+.pr-social-media {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5%;
+}
+.pr-share-icons-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+
+.site-links{
+  margin: 30px 15px 0 15px;
+}
 
 @media only screen and (max-width: 600px) {
   body{
@@ -219,5 +263,12 @@ body{
   }
   .feature-rev{
     flex-wrap: wrap-reverse;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .footer-logo{
+    height: 15%;
+    margin-top: 20px;
   }
 }
