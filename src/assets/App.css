@@ -40,7 +40,7 @@ body{
   color: black;
 }
 .banner{
-  background-image: url("./assets/bg.jpg");
+  background-image: url("../assets/bg.jpg");
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -161,7 +161,7 @@ body{
 }
 
 .banner-about{
-  background-image: url("./assets/about2.jpg");
+  background-image: url("../assets/about2.jpg");
   height: 100vh;
   background-size: cover;
   display: flex;

@@ -5,6 +5,7 @@ import Homepage from "./Pages/Homepage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
+import './assets/App.css';
 
 export default function App() {
   return (
